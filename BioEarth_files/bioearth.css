@@ -1,0 +1,168 @@
+/*#### UNIVERSAL ORGANIZATION NAV #####*/
+
+/*#### MAIN SITE NAV #####*/
+#wrapper #nav_main_wrap {height:40px; width:775px; float:left; background: #333 url(images/mainnavback_thin.jpg) repeat-x; line-height:40px; font-weight:normal; z-index: 2; _margin: -5px 0px;	_overflow: hidden;}
+#wrapper #nav_main {width: 100%; /* Adjust this width to fit your tabs and keep main nav centered */ _width: 750px; /* For IE6 */ margin: 0px auto; height: 40px; padding: 0px; z-index: 3;}
+
+/* ------------------------ jhinds added */
+#nav_main {clear:both;	margin-top:0px;	padding:0;	text-align:center; width:100%; }  
+#menubar_main { padding:0; margin:0; list-style:none; line-height:40px; background: #333 url(images/mainnavback_thin.jpg) repeat-x; position:relative; z-index:5000;  }
+#menubar_main li.top {display:block; float:left; height:40px;}
+#menubar_main li a.top_link {display:block; float:left; height:35px; line-height:33px; color:#fff; text-decoration:none; font-size:12px; padding:0 0 0 10px; cursor:pointer; background-image: url(images/menu_downarrow_gray.png); background-repeat: no-repeat; background-position: right center;}
+#menubar_main li a.top_link span {visibility:visible; float:left; display:block; padding:0 20px 0 6px; height:35px; }
+#menubar_main li a.top_link span.down {visibility:visible; float:left; display:block; padding:0 20px 0 6px; height:35px; }
+#menubar_main li a.top_link span.down_first {visibility:visible; float:left; display:block; padding:0 20px 0 6px; height:35px; color:#6ab60c;}
+
+#menubar_main li:hover a.top_link {color:#fff; background-color: #0461b7; }
+#menubar_main li:hover a.top_link span {background-color: #0461b7;}
+#menubar_main li:hover a.top_link span.down {background-color: #0461b7;background-image: url(images/menu_downarrow_gray.png); background-repeat: no-repeat; background-position: right center;}
+#menubar_main li:hover a.top_link span.down_first {background-color: #0461b7;background-image: url(images/menu_downarrow_gray.png); background-repeat: no-repeat; background-position: right center; color:#FFF;}
+
+/* Default list styling */
+
+#menubar_main li:hover {position:relative; z-index:2000;}
+#menubar_main li:hover ul.sub
+{left:1px; top:38px; background: #82b2cf; padding:3px; border-top:2px solid #901f32; border-bottom:2px solid #0461b7;border-left:2px solid #0461b7; border-right:2px solid #0461b7; white-space:nowrap; width:160px; height:auto; z-index:3000;}
+#menubar_main li:hover ul.sub li
+{display:block; height:20px; position:relative; text-align:left; float:left; width:140px; font-weight:normal; z-index:4;}
+#menubar_main li:hover ul.sub li a
+{display:block; font-size:12px; height:18px; width:150px; line-height:18px; text-indent:5px; color:#fff; text-decoration:none;border-bottom: 1px dotted #fff; z-index:4;}
+#menubar_main li:hover ul.sub li a:hover 
+{background:#0461b7; color:#fff; border-color:#fff;}
+
+#menubar_main li:hover li:hover ul,
+#menubar_main li:hover li:hover li:hover ul,
+#menubar_main li:hover li:hover li:hover li:hover ul,
+#menubar_main li:hover li:hover li:hover li:hover li:hover ul
+{left:90px; top:-4px; background: #0461b7; padding:3px; border:1px solid #5c731e; white-space:nowrap; width:90px; z-index:4; height:auto;}
+
+#menubar_main ul, 
+#menubar_main li:hover ul ul,
+#menubar_main li:hover li:hover ul ul,
+#menubar_main li:hover li:hover li:hover ul ul,
+#menubar_main li:hover li:hover li:hover li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+/* END HORIZONTAL NAVIGATION BAR WITHIN BANNER */
+
+body {background:url(http://images.wsu.edu/global/gen2images/bg.jpg) repeat-x #edefef;font-family:"Lucida Grande","Lucida Sans Unicode",Arial,san-serif;margin:0px;padding:0px;text-align:left;background-color:#EEEFF1;color:#262a2d;}
+#logo,#globalnav ul,#leftsidebar #featured,#toolbar p,form,#logo img {margin:0px;padding:0px;}
+img {border:none;}
+a {color:#003c69;text-decoration:underline;}
+a:visited {color:#5e6a71;text-decoration:underline;}
+a:hover {color:#981e32;text-decoration:none;}
+#logo {float:left;height:105px;width:185px;background:url(http://images.wsu.edu/global/gen2images/bg-logo2.jpg);display:inline;}
+#wrapper {width:976px;position:relative;margin:0 auto;padding-left:10px;background:url(http://images.wsu.edu/global/bg-shadows.jpg) 0px 68px no-repeat;background-image:url(http://images.wsu.edu/global/gen2images/bg-shadows2.jpg);background-position:970px 30px;}
+#globalnav {font-size:x-small;font-weight:normal;width:960px;height:25px;line-height:2em;color:#fff;padding-top:5px;}
+#globalnav ul {list-style-image:none;text-align:right;padding-right:18px; padding-left:0px;margin:0px;}
+#globalnav li {display:inline;padding-left:20px;}
+#globalnav a {text-decoration:none;color:#fff;}
+#globalnav a:hover {color:#e7e9ea;}
+#globalnavsearchform{display:inline;}
+#globalnavsearchform input{width:125px;border:#5e6a71 1px solid;color:#5e6a71;font-size:9px;height:14px;padding-bottom:0px;text-align:center;}
+#searchbuttonimg{padding-top:3px;padding-left:3px;}
+#siteID {height:85px;float:left;width:775px;color:#fff;background:#981e32 url(http://images.wsu.edu/SIDs/sid-zs.jpg) no-repeat;}
+#siteID h2 {font-weight:normal;font-size:small;padding:21px 0px 0px 22px;margin:0px;width:580px;color:#fff;}
+#siteID h1 {padding:0px 0px 0px 22px;font-size:1.65em;font-weight:bold;letter-spacing:-0.05em;width:580px;margin:0px;color:#fff;}
+#wrapper #toolbar {height:20px;width:775px;float:left;background:#fff url(http://images.wsu.edu/) no-repeat;line-height:20px;font-size:x-small;text-align:right;font-weight:normal;}
+#toolbar ul {display:inline;list-style-image:none;padding-right:22px;}
+#toolbar li {display:inline;padding:0px 0px 0px 15px;}
+#toolbar a {color:#5e6a71;text-decoration:none;font-weight:normal;}
+#toolbar a:hover {color:#981e32;}
+#toolbar .toolbargreeting {float:left;}
+#content {width:960px;vertical-align:top;padding:0px; z-index:0}
+#content p {margin:0px;padding-bottom:12px;line-height:1.6em;}
+#content #main ul,#content #secondary ul,#content #additional ul,#content #main ol,#content #secondary ol,#content #additional ol {line-height:1.6em;margin-top:0px;padding-top:0px;padding-bottom:0px;margin-bottom:0px;}
+#content #main li,#content #secondary li,#content #additional li {margin-top:5px;margin-left:0px;margin-bottom:5px;margin-right:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}
+#content #main ul,#content #secondary ul,#content #additional ul {list-style-type:square;margin-left:15px;padding:0px 0px 0px 20px;}
+#content ol h1,#content ol h2,#content ol h3,#content ol h4,#content ol h5,#content ol h6 {padding-bottom:0px;}
+#content ul h1,#content ul h2,#content ul h3,#content ul h4,#content ul h5,#content ul h6 {padding-bottom:0px;}
+#wrapper #content {background:url(http://images.wsu.edu/global/gen2images/bg-content.gif) repeat-y right top;}
+#leftsidebar {width:151px;float:left;font-size:0.7em;line-height:1.2em;font-weight:normal;background-color:#fff;background:url(http://images.wsu.edu/global/gen2images/bg-nav.jpg) no-repeat #edefef;padding:0 10px 100px 24px;}
+#leftsidebar li {padding:3px 0;list-style:none;}
+#leftsidebar ul {list-style-type:none;display:block;padding:0 0 15px;margin:13px 0 0;}
+#leftsidebar ul ul,#leftsidebar ul ul ul {padding:3px 0 3px 15px;margin:0;}
+#leftsidebar a {display:block;color:#5e6a71;text-decoration:none;}
+#leftsidebar a:hover {color:#262a2d;}
+#leftsidebar .navparentpath {}
+#leftsidebar .navcurrentpage {color:#981e32;}
+#leftsidebar a.navcurrentpage:hover {color:#262a2d;}
+#leftsidebar .navdivider {border-top:1px #ebebed solid;padding:10px 0 0;margin:0;}
+#leftsidebar #featured {font-size:1.1em;line-height:1.3em;padding:0;background-repeat:repeat-y;}
+#leftsidebar #featured a {color:#981e32;}
+#leftsidebar #featured a:hover {color:#5e6a71;}
+#leftsidebar #featured ul {padding:0px;list-style-type:none;margin:0 0 2px;padding:5px 0px;border:1px solid #ebebed;border-right:none;border-left:none;}
+#leftsidebar #featured li {padding:3px 0;}
+#wrapper #content #leftsidebar #featured {background:url(http://images.wsu.edu/global/gen2images/bg-featured.jpg) repeat-y;}
+#flash {float:left;overflow:hidden;margin:0px;padding:0px;}
+#flash img {padding:0px;margin:0px;}
+#content h6,#content h5,#content h4,#content h3,#content h2,#content h1 {margin:0px;padding:0px 0px 6px;letter-spacing:0em;font-weight:normal;}
+#content h6,#content h5,#content h4 {padding:0px 0px 5px;}
+#content h1 {font-size:2.2em;line-height:1.2em;}
+#content h2 {font-size:1.8em;line-height:1.3em;}
+#content h3 {font-size:1.5em;line-height:1.4em;}
+#content h4 {font-weight:bold;font-size:1.2em;line-height:1.5em;}
+#content h5 {font-weight:bold;font-size:1em;line-height:1.6em;}
+#content h6 {font-weight:normal;font-size:.8em;line-height:1.7em;color:#262a2d;}
+#content h2,#content h4,#content h5 {color:#003c69;}
+#content h3,#content h1 {color:#981e32;}
+#main {width:0px;float:left;padding-left:22px;background-color:#fff;z-index:0;}
+#main,#secondary,#additional {padding-top:20px;float:left;font-size:0.75em;background-color:#fff;}
+#wrapper #content #secondary {width:214px;float:left;padding-left:22px;padding-right:22px;margin-left:25px;width:189px;background-color:#c60c30;background:url(http://images.wsu.edu/sidebars/bars13.jpg) no-repeat;margin-top:6px;}
+/* #wrapper #content #secondary {float:left;padding-left:22px;padding-right:22px;} */
+#secondary { width:200px;position:absolute; right:15px; top:180px;} 
+#additional {display:none;}
+#wrapper #content #localfooter {clear:both;background-image:none;text-align:center;padding-top:65px;padding-left:195px;padding-right:10px;display:block;font-size:x-small;line-height:1.4em;}
+#wsufooter {clear:both;width:960px;position:relative;text-align:center;height:50px;font-size:x-small;margin-left:auto;margin-right:auto;padding:15px 0px 0px 0px;}
+#wsufooter {background:url(http://images.wsu.edu/global/gen2images/bg-wsufooter2.png) no-repeat right top;padding-top:40px;padding-left:195px;padding-right:16px;width:775px;}
+#wsufooter a {color:#868f95;text-decoration:none;}
+#wsufooter a:hover {color:#5e6a71;text-decoration:none;}
+.crimson{color:#981e32}
+.bold1{color:#5e6a71}
+.bold2{color:#452325}
+.bold3{color:#003c69}
+.bold4{color:#c60c30}
+.muted1{color:#dbceac}
+.muted2{color:#b6bf00}
+.muted3{color:#ec7a08}
+.muted4{color:#3cb6ce}
+.gray5a{color:#262a2d}
+.gray5b{color:#5e6a71}
+.gray5c{color:#b6bcbf}
+.gray5d{color:#e7e9ea}
+.tint1a{color:#efe9da}
+.tint1b{color:#faf8f3}
+.tint2a{color:#dee28c}
+.tint2b{color:#f4f5d9}
+.tint3a{color:#f6c390}
+.tint3b{color:#fcebda}
+.tint4a{color:#a7dee9}
+.tint4b{color:#e2f4f8}
+
+/* table styling */
+th { padding: 5px; background-color: #6ab60c; text-align:center }
+td { padding: 5px;}
+tr.ltgreen td { background-color: #eef5e7; }
+tr.dkgreen td { background-color: #dbebcd; }
+tr.grey td { background-color: #DDDDDD; }
+td.center {text-align:center;}
+
+/* --------------- RESEARCH -----------------*/
+
+.mainblock { width:500px; background-color:#FFF; padding:10px 0px 10px 0px; margin-top:10px; border:1px solid #c2c2c2; float:left; }
+.port { width:145px; float:left; padding:5px 10px; margin:0; border-right:1px solid #c2c2c2;}
+.block { width:145px; float:left; margin:0; padding:5px 10px;}
+
+.dots {	padding:0px 5px;	margin: 5px 0px 15px 0px;	border-bottom:dotted 1px #5e6a71; }
+
+.imageBorder
+{
+    border: #991e30 2px solid;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+}
+
+
